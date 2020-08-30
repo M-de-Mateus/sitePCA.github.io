@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Fale Conosco</title>
+        <link rel="icon" href="sitefotos/favicon.ico" type="image/x-icon" />
+        <meta name='viewport' content='width=device-width, initial-scale=1'/>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="sitecss/falecss.css" />
+        <link rel="stylesheet" type="text/css" href="sitecss/normalize.css" />
+    </head>
+   
+
+    <body>
+
+        <div id='cssmenu'>  
+            <ul>
+               <li><a href='coalise.html'>Home</a></li>
+               <li><a href='sobre.html'>Sobre</a>
+                  <ul>
+                     <li><a href=''>Contato</a>
+                        <ul>
+                           <li><a href='fale.html'>Fale conosco</a></li>
+                           </ul>
+                     </li>
+                  </ul>
+                     <li><a href=''>Orientações</a>
+                        <ul>
+                                    <li><a href="bissexual.html">Bissexual</a></li>
+                                    <li><a href="panssexual.html">Panssexual</a></li>
+                                    <li><a href="polissexual.html">Polissexual</a></li>
+                                    <li><a href="homossexual.html">Homossexual</a></li>
+                                    <li><a href="demissexual.html">Demissexual</a></li>
+                                    <li><a href="assexual.html">Assexual</a></li>
+                                    <li><a href="heterossexual.html">Heterossexual</a></li>
+                                    <li><a href="outros.html">Outros</a></li>
+                        </ul>
+                     </li>
+               <li><a href='quem.html'>Quem somos</a></li>
+               <li><a href="https://instagram.com/coalise_?igshid=188kthv20sn1k" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+         
+        <div class="container">  
+            <h1>Fale Conosco:</h1>
+            <form action="https://formspree.io/mdowekwy" class="form-contact" method="post" tabindex="1">  
+               <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />  
+               <input type="email" class="form-contact-input" name="_replyto" placeholder="Email" required />   
+               <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>  
+               <button type="submit" class="form-contact-button" value="Send">Enviar</button>  
+            </form>  
+        </div> 
+        
+        
+       
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/menumaker.js"></script>
+<script>
+$("#cssmenu").menumaker({
+title: "Menu",
+format: "multitoggle"
+});</script>
+
+        
+    </body>
+
+    
+</html>
